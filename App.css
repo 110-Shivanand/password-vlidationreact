@@ -1,0 +1,41 @@
+.password-validation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+.password-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin: 10px 0;
+}
+
+.password-input.valid {
+  border-color: green;
+}
+
+.password-input.invalid {
+  border-color: red;
+}
+
+.validation-message {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.validation-message.valid {
+  color: green;
+}
+
+.validation-message.invalid {
+  color: red;
+}
